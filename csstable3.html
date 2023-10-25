@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIXED Table HEADER</title>
+    <style>
+        h1{
+            color: white;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to bottom right,rgb(207, 61, 86),rgb(56, 2, 56));
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100vh;
+        }
+        div{
+            background-image: linear-gradient(to right, rgb(22, 164, 119),rgb(124, 211, 183),rgb(22, 164, 119));
+            width: 700px;
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        table{
+            border-collapse: collapse;
+            color: white;
+            font-size:small;
+            width: 700px;
+            height: 300px;
+        }
+        thead{
+              background-color: rgb(104, 220, 177);
+              text-align: left;    
+        }
+        th{
+            padding: 15px;
+        }
+        td{
+            padding: 15px;
+        }
+        tr{
+            border-bottom: 0.1px solid rgb(139, 244, 206);
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>FIXED TABLE HEADER</h1>
+    <table>
+        <thead>
+            <th>COMPANY</th>
+            <th>PRICE</th>
+            <th>CHANGE</th>
+            <th>CHANGE%</th>
+        </thead>
+        <tr>
+            <td>AUSTRALIAN COMPANY</td>
+            <td>&dollar;1.38</td>
+            <td>+2.01</td>
+            <td>-0.36%</td>
+        </tr>
+        <tr>
+            <td>AUSENCO</td>
+            <td>&dollar;2.38</td>
+            <td>-0.01</td>
+            <td>-1.36%</td>
+        </tr>
+        <tr>
+            <td>ADELAIDE</td>
+            <td>&dollar;3.22</td>
+            <td>-0.01</td>
+            <td>+1.36%</td>
+        </tr>
+        <tr>
+            <td>ADITYABRILA</td>
+            <td>&dollar;1.02</td>
+            <td>-1.01</td>
+            <td>+2.36%</td>
+        </tr>
+        <tr>
+            <td>AUSTRALIAN COMPANY</td>
+            <td>&dollar;1.38</td>
+            <td>+2.01</td>
+            <td>-0.36%</td>
+        </tr>
+        <tr>
+            <td>AUSENCO</td>
+            <td>&dollar;2.38</td>
+            <td>-0.01</td>
+            <td>-1.36%</td>
+        </tr>
+    </div>
+    </table>
+    
+    
+</body>
+</html>

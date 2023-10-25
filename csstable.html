@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table</title>
+    <style>
+        body{
+            display: flex;
+            background-color:rgb(60, 141, 138);
+            justify-content: center;
+            align-items:center;
+            height: 100vh;
+        }
+        div{
+            background-color:#453e3d;
+            width: 700px;
+            height: fit-content;
+        }
+        tr{
+            color: white;
+        }
+        th{
+            background:rgba(22, 22, 22, 0.847);   
+        }
+        tr:nth-child(even)
+        {
+            background:rgba(22, 22, 22, 0.847);
+        }
+        tr:nth-child(odd)
+        {
+            background:#453e3d;
+        }
+        table{
+            width: 100%;
+            text-align:left;
+        }
+        th,td{
+            padding:10px;
+            padding-left: 4px;
+        }
+        .center{
+            text-align: center;
+        }
+        button{
+            background-color: rgb(60, 141, 138);
+            color: white;
+            border:0;
+            height: 30px;
+            width: 70px;
+            margin-left: 4px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <table>
+            <thead>
+                <th>Provider Name</th>
+                <th>E-mail</th>
+                <th></th>
+            </thead>
+            <tr>
+                <td>Iacob Geaorgenscu</td>
+                <td>e-mail@test-email.com</td>
+                <td><button>Select</button></td>
+            </tr>
+            <tr>
+                <td>Julius Neumann</td>
+                <td>e-mail@test-email.com</td>
+                <td><button>Select</button></td>
+            </tr>
+            <tr>
+                <td>Christoph Koller</td>
+                <td>e-mail@test-email.com</td>
+                <td><button>Select</button></td>
+            </tr>
+            <tr>
+                <td>Bram Lemmens</td>
+                <td>e-mail@test-email.com</td>
+                <td><button>Select</button></td>
+            </tr>
+            <tr>
+                <td  class="center" colspan="3">Year:2014</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

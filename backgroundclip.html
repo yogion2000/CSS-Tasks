@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bgclip</title>
+    <style>
+        .box1{
+            background-color: beige;
+            background-clip: content-box;
+            padding: 10px;
+            border: 5px dotted;
+            margin: 5px;
+        }
+        .box2{
+            background-color: beige;
+            background-clip:padding-box;
+            padding:10px;
+            border: 5px dotted;
+            margin: 5px;
+        }
+        .box3{
+            background-color: beige;
+            background-clip:border-box;
+            padding:10px;
+            border: 5px dotted;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading</h1>
+    <div class="box1">
+        <p>Backgroung Clip for content box</p>
+    </div>
+    <div class="box2">
+        <p>Backgroung Clip for padding box</p>
+    </div>
+    <div class="box3">
+        <p>Backgroung Clip for border box</p>
+    </div>
+    
+</body>
+</html>

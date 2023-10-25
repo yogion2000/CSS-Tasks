@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: small;
+            display: flex;
+            height: 100vh;
+            flex-direction:column;
+            justify-content: center;
+            align-items:center;
+        }
+        table{
+            border-collapse: collapse;
+            width: 800px;
+            box-shadow: 4px 4px 6px;
+        }
+        td{
+            padding: 15px;
+        }
+        tr:nth-child(odd){
+            background: white;
+        }
+        tr:nth-child(even){
+            background: rgb(224, 224, 224);
+        }
+        .red{
+            background-color: rgb(167, 16, 16);
+            border: 0;
+            color: white;
+            height:30px ;
+            width: 70px;
+            border-radius: 5px;
+        }
+        .green{
+            background-color: rgb(12, 92, 12);
+            border: 0;
+            color: white;
+            height:30px ;
+            width: 95px;
+            border-radius: 5px;
+        }
+        .yellow{
+            background-color:rgb(215, 176, 35);
+            border: 0;
+            color: white;
+            height:30px ;
+            width: 60px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table#09</h1>
+    <div>
+        <table>
+            <tr>
+                <td>INVOICE</td>
+                <td>CUSTOMER</td>
+                <td>SHIP</td>
+                <td>PRICE</td>
+                <td>PRUCHASED PRICE</td>
+                <td>STATUS</td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>&dollar;3000</td>
+                <td>&dollar;1200</td>
+                <td><button class="green">Progress</button></td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>&dollar;3000</td>
+                <td>&dollar;1200</td>
+                <td><button class="yellow">Open</button></td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>&dollar;3000</td>
+                <td>&dollar;1200</td>
+                <td><button class="red">On hold</button></td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>&dollar;3000</td>
+                <td>&dollar;1200</td>
+                <td><button class="green">Progress</button></td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>&dollar;3000</td>
+                <td>&dollar;1200</td>
+                <td><button class="red">On hold</button></td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>&dollar;3000</td>
+                <td>&dollar;1200</td>
+                <td><button class="yellow">Open</button></td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>&dollar;3000</td>
+                <td>&dollar;1200</td>
+                <td><button class="yellow">Open</button></td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Mark Otto</td>
+                <td>Japan</td>
+                <td>&dollar;3000</td>
+                <td>&dollar;1200</td>
+                <td><button class="green">Progress</button></td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>

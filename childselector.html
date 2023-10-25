@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Selector</title>
+    <style>
+        body > .box1{
+            background-color: aqua;
+        }
+        .box1 > h1{
+            color: brown;
+        }
+        .box1 > p{
+            color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <h1>Child Selector</h1>
+        <p>The child combinator (>) is placed between two CSS selectors. It matches only those elements matched by the second selector that are the direct children of elements matched by the first.</p>
+    </div>
+</body>
+</html>

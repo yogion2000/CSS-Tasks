@@ -1,0 +1,14 @@
+/* h1 h3{
+    color: brown;
+}
+.para1 .para2{
+    color: goldenrod;
+} */
+li {
+    list-style-type: disc;
+  }
+  
+  li li {
+    list-style-type: circle;
+    color: goldenrod;
+  }

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class</title>
+    <style>
+        body{
+            margin: 0;
+            border:0;
+            padding: 0;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwbTZY7TqOie2PME33SS0X0uYm2FSU7igxZlL6U9J8-g&s);
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-attachment: fixed;
+            grid-template-rows:50% 50%;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 250px;
+            height: 250px;
+            
+            margin: 10px;
+        }
+        .box1{
+            background-color: antiquewhite;
+        }
+        .box1>img{
+            position:relative;
+            top: 55px;
+            left:55px;
+            opacity:50%;
+        }
+        .box2{
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            background-color: antiquewhite;
+            
+        }
+        .box3{
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            background-color: blue;
+        }
+        .box5{
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+        .box4{
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            background-color: goldenrod;
+        }
+        .box1:hover{
+            background-color: blue;
+        }
+        img:hover{
+            opacity: 100%;
+        }
+        .box2:hover{
+            color:blue;
+            background-color: white;
+        }
+        .box3:hover{
+            color: goldenrod;
+            background-color: bisque;
+        }
+        .box5:hover{
+            background-color: blueviolet;
+        }
+        .box4:hover{
+            background-color:black;
+            color:  goldenrod;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1"><img src="https://cdn-icons-png.flaticon.com/128/2814/2814666.png" alt=""></div>
+        <div class="box2">WEB DESIGN</div>
+        <div class="box3">CHAT BOTS</div>
+        <div class="box4">GAME DESIGN</div>
+        <div class="box2">TEXT ANALYSIS</div>
+        <div class="box3">JAVA SCRIPT</div>
+        <div class="box5">DATA PRIVACY</div>
+        <div class="box1"><img src="https://cdn-icons-png.flaticon.com/128/2814/2814666.png" alt=""></div>
+    </div>
+    
+</body>
+</html>

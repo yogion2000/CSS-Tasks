@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        p{
+            width: 377px;
+        }
+        .box1{
+            width: 377px;
+            background-color: yellow;
+            margin-left:0;
+        }
+        .box2{
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            width: 420px;
+            background-color: aqua;
+            height: 140px;
+        }
+        .box3{
+            display: flex;
+            background-color: blueviolet;
+            height: 140px;
+            width: 377px;
+            align-items: last baseline;
+        }
+        .box3>p{
+            margin: 0;
+        }
+        .box4{
+            display: flex;
+            background-color:rgb(40, 194, 40);
+            height: 100px;
+            width: 410px;
+            align-items:first baseline;
+            margin-top: 20px;
+        }
+        .box4 > p{
+            margin: 0;
+            margin-left: 30px;
+        }
+        .box5{
+            display: flex;
+            background-color:green;
+            height: 100px;
+            width: 410px;
+            align-items:flex-start;
+            margin-top:20px;
+        }
+        .box5>p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"><p>Nature is a British weekly scientific journal founded and based in London, England. As a multidisciplinary publication, Nature features peer-reviewed research from a variety of academic disciplines, mainly in science and technology.</p></div>
+    <div class="box2"><p>Nature is a British weekly scientific journal founded and based in London, England. As a multidisciplinary publication, Nature features peer-reviewed research from a variety of academic disciplines, mainly in science and technology.</p></div>
+    <div class="box3"><p>Nature is a British weekly scientific journal founded and based in London, England. As a multidisciplinary publication, Nature features peer-reviewed research from a variety of academic disciplines, mainly in science and technology.</p></div>
+    <div class="box4"><p>Nature is a British weekly scientific journal founded and based in London, England. As a multidisciplinary publication, Nature features peer-reviewed research from a variety of academic disciplines, mainly in science and technology.</p></div>
+    <div class="box5"><p>Nature is a British weekly scientific journal founded and based in London, England. As a multidisciplinary publication, Nature features peer-reviewed research from a variety of academic disciplines, mainly in science and technology.</p></div>
+</body>
+</html>

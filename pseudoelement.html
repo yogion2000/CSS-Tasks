@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body{
+      background-color: bisque;
+    }
+    .content {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    .content::first-line {
+      font-weight: bold;
+      color: #3366cc;
+    }
+    .content::first-letter {
+      font-size: 36px;
+      float: left;
+      margin-right: 10px;
+      color: #ff6600;
+    }
+    .content::before {
+      content: "Welcome to ";
+      font-weight: bold;
+      font-style: italic;
+    }
+    .content::after {
+      content: "This is the end of the content.";
+      font-style: italic;
+    }
+    li::marker { 
+      color: #ff3366;
+      margin-right: 5px;
+    }
+    ::selection {
+      background-color:yellow;
+      color:red;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget magna id lorem malesuada gravida.</p>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Java Script</li>
+    </ul>
+  </div>
+</body>
+</html>
